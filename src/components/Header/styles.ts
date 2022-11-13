@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const HeaderWrapper = styled.header`
-  padding: 1.5rem 2rem;
+  height: 5rem;
+  padding: 0 2rem;
   background-color: ${(props) => props.theme.colors.shape};
 
   display: flex;
