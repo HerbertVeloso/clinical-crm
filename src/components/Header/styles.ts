@@ -12,12 +12,23 @@ export const HeaderWrapper = styled.header`
   transition: background-color 0.2s;
 `;
 
-export const Title = styled.strong`
-  font-size: 1.25rem;
-  font-weight: 700;
-  color: ${(props) => props.theme.colors.title};
+export const Title = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 
   transition: color 0.2s;
+
+  svg {
+    font-size: 1.75rem;
+    color: ${(props) => props.theme.colors.primary};
+  }
+
+  strong {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: ${(props) => props.theme.colors.title};
+  }
 `;
 
 export const Actions = styled.div`

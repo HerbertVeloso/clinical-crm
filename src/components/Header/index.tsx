@@ -1,4 +1,5 @@
 import { useSession, signIn, signOut } from "next-auth/react";
+import { Activity } from "phosphor-react";
 
 import { ToggleTheme } from "./ToggleTheme";
 
@@ -9,7 +10,10 @@ export function Header() {
 
   return (
     <HeaderWrapper>
-      <Title>Clinical CRM</Title>
+      <Title>
+        <Activity weight="bold" />
+        <strong>Clinical CRM</strong>
+      </Title>
       <Actions>
         <ToggleTheme />
         {!session ? (
