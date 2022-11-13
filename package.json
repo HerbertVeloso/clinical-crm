@@ -16,8 +16,15 @@
     "eslint-config-next": "13.0.3",
     "next": "13.0.3",
     "next-auth": "^4.16.4",
+    "nookies": "^2.5.2",
+    "phosphor-react": "^1.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "styled-components": "^5.3.6",
     "typescript": "4.8.4"
+  },
+  "devDependencies": {
+    "@types/cookie": "^0.5.1",
+    "@types/styled-components": "^5.1.26"
   }
 }
