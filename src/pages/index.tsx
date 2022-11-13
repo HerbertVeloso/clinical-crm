@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
       </Head>
 
       <h1>Clinical CRM</h1>
+      <p>Gerencie os seus pacientes de forma simples e eficiente</p>
+      <Link href="/signin">Entrar</Link>
     </>
   );
 }
